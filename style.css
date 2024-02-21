@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Sora";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  padding: 20vh 10vw;
+  gap: 5vw;
+}
+
+.main-section, .reviews-section {
+  width: 40vw;
+  border: 1px solid black;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-section > img {
+  padding: 5px;
+  border-radius: 25px;
+  background: #F5C044;
+  margin-bottom: 10px;
+}
+
+.ms-title {
+  font-size: 2.25rem;
+  margin-bottom: 15px;
+}
+
+.ms-description {
+  line-height: 30px;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bullets {
+  margin-bottom: 10px;
+}
+
+.bullets > img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.google-review, .meta-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 50px 25px 25px;
+  width: 60%;
+  border: 1px solid black;
+  height: 45%;
+}
+
+.google-review {
+  margin-left: 40%;
+  padding: 25px 50px 25px 25px;
+}
+
+.google-icon {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.meta-icon {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.rev-author {
+  font-size: 1rem;
+}
+
+.rev-content {
+  font-size: 0.875rem;
+}
